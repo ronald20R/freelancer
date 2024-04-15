@@ -1,0 +1,11 @@
+# Ignorar archivos .log
+*.log
+
+# Ignorar el directorio llamado "logs"
+/logs/
+
+# Ignorar archivos de configuración específicos
+config.ini
+
+#ignorar directorio
+/.vscode/
