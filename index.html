@@ -158,24 +158,29 @@
       <form class="formulario">
         <fieldset>
           <legend>Contactanos Llenando todo los campos</legend>
-          <div>
-            <label for>Nombre</label>
-            <input type="text" placeholder="nombre" />
-          </div>
-          <div>
-            <label for>Telefono</label>
-            <input type="tel" placeholder="tu telefono" />
-          </div>
-          <div>
-            <label for>Correo</label>
-            <input type="email" placeholder="tu email" />
-          </div>
-          <div>
-            <label for>Mensaje</label>
-            <textarea> </textarea>
-          </div>
-          <div>
-            <input type="submit" value="enviar" />
+          <div class="contenedor-campos">
+              <div class="campo">
+                <label for>Nombre</label>
+                <input class="input-text" type="text" placeholder="nombre" />
+              </div>
+
+              <div class="campo">
+                <label for>Telefono</label>
+                <input class="input-text" type="tel" placeholder="tu telefono" />
+              </div>
+
+              <div class="campo">
+                <label for>Correo</label>
+                <input class="input-text" type="email" placeholder="tu email" />
+              </div>
+
+              <div class="campo">
+                <label for>Mensaje</label>
+                <textarea class="input-text"> </textarea>
+              </div>
+            </div> <!--.contenedor-camposs-->
+          <div class="alinear-derecha flex">
+            <input class="boton w-sm-100" type="submit" value="enviar" />
           </div>
         </fieldset>
 
@@ -193,7 +198,7 @@
     </section>
 
   </main>
-    <footer>
+    <footer class="footer">
       <p>Derechos Reservados. Nucleos Marketing</p>
     </footer>
   </body>

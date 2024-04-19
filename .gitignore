@@ -9,3 +9,7 @@ config.ini
 
 #ignorar directorio
 /.vscode/
+
+#/ignorar git ignore
+
+/.gitignore/
